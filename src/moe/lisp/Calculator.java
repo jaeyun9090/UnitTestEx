@@ -22,7 +22,7 @@ public class Calculator {
     public int max(int a, int b, int c) {
         int x;
         if (a > b) {
-            if (b > c) {
+            if (a > c) {
                 x = a;
             } else {
                 x = c;
